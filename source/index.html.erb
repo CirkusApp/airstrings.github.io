@@ -1,0 +1,29 @@
+---
+title: Air Strings
+---
+
+<h1>Air Strings</h1>
+
+<h3>1. Push Localizable.strings to Google Sheets</h3>
+<p>
+	<code>
+		# airstrings push -spreadhseetId <GOOGLE_SPREADSHEET_ID> -path ./en/Localizable.strings -sheetName "es/Localizable.strings"
+	</code>
+</p>
+
+<h3>2. Translate Localizable.strings in Google Sheets</h3>
+<p>
+	Share, collaborate, automate etc.
+</p>
+
+<h3>3. Download Localizable.strings from Google Sheets</h3>
+<p>
+	<code>
+		# airstrings pull -spreadhseetId <GOOGLE_SPREADSHEET_ID> -path -sheetName "es/Localizable.strings" ./es/Localizable.strings
+	</code>
+</p>
+
+<%= link_to(
+  "Edit",
+  "https://github.com/airstrings/airstrings.github.io/tree/middleman"
+) %>
