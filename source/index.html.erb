@@ -4,24 +4,30 @@ title: Air Strings
 
 <h1>Air Strings</h1>
 
-<h3>1. Push Localizable.strings to Google Sheets</h3>
-<p>
+
+<ol>
+	<li><h3>Install CLI</h3><p>
+	<code>
+		# brew install airstrings
+	</code>
+	</p></li>
+
+	<li><h3>Push Localizable.strings to Google Sheets</h3><p>
 	<code>
 		# airstrings push -spreadhseetId <GOOGLE_SPREADSHEET_ID> -path ./en/Localizable.strings -sheetName "es/Localizable.strings"
 	</code>
-</p>
+	</p></li>
 
-<h3>2. Translate Localizable.strings in Google Sheets</h3>
-<p>
+	<li><h3>Translate in Google Sheets</h3><p>
 	Share, collaborate, automate etc.
-</p>
+	</p></li>
 
-<h3>3. Download Localizable.strings from Google Sheets</h3>
-<p>
+	<li><h3>Pull Localizable.strings from Google Sheets</h3><p>
 	<code>
 		# airstrings pull -spreadhseetId <GOOGLE_SPREADSHEET_ID> -path -sheetName "es/Localizable.strings" ./es/Localizable.strings
 	</code>
-</p>
+	</p></li>
+</ol>
 
 <%= link_to(
   "Edit",
