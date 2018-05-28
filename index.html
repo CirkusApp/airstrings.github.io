@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Air Strings</title>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
+  </head>
+  <body>
+    
+<h1><img src="/images/icon-400x400.png" width="200px" height="200px"/><br/>Air Strings</h1>
+
+
+<ol>
+	<li><h3>Install CLI</h3><p>
+	<code>
+		# brew install airstrings
+	</code>
+	</p></li>
+
+	<li><h3>Push <code>Localizable.strings</code> to Google Sheets</h3><p>
+	<code>
+		# airstrings push -spreadhseetId &lt;GOOGLE_SPREADSHEET_ID&gt; -path ./en/Localizable.strings -sheetName "es/Localizable.strings"
+	</code>
+	</p></li>
+
+	<li><h3>Translate in Google Sheets</h3><p>
+	Share, collaborate, automate etc.
+	</p></li>
+
+	<li><h3>Pull <code>Localizable.strings</code> from Google Sheets</h3><p>
+	<code>
+		# airstrings pull -spreadhseetId &lt;GOOGLE_SPREADSHEET_ID&gt; -sheetName "es/Localizable.strings"  -path ./es/Localizable.strings
+	</code>
+	</p></li>
+</ol>
+
+<a href="https://github.com/CirkusApp/airstrings.github.io/tree/middleman">Edit</a>
+
+  </body>
+</html>
