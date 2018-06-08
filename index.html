@@ -18,13 +18,14 @@
 <ol>
 	<li><h3>Install CLI</h3><p>
 	<code>
-		# brew install airstrings
+		$ brew install mint
+		$ mint install airstrings
 	</code>
 	</p></li>
 
 	<li><h3>Push <code>Localizable.strings</code> to Google Sheets</h3><p>
 	<code>
-		# airstrings push -spreadhseetId &lt;GOOGLE_SPREADSHEET_ID&gt; -path ./en/Localizable.strings -sheetName "es/Localizable.strings"
+		$ airstrings push -spreadhseetId &lt;GOOGLE_SPREADSHEET_ID&gt; -path ./en/Localizable.strings -sheetName "es/Localizable.strings"
 	</code>
 	</p></li>
 
@@ -34,7 +35,7 @@
 
 	<li><h3>Pull <code>Localizable.strings</code> from Google Sheets</h3><p>
 	<code>
-		# airstrings pull -spreadhseetId &lt;GOOGLE_SPREADSHEET_ID&gt; -sheetName "es/Localizable.strings"  -path ./es/Localizable.strings
+		$ airstrings pull -spreadhseetId &lt;GOOGLE_SPREADSHEET_ID&gt; -sheetName "es/Localizable.strings"  -path ./es/Localizable.strings
 	</code>
 	</p></li>
 </ol>
