@@ -25,7 +25,7 @@
 
 	<li><h3>Push <code>Localizable.strings</code> to Google Sheets</h3><p>
 	<pre><code>
-		$ airstrings push -spreadhseetId &lt;GOOGLE_SPREADSHEET_ID&gt; -path ./en/Localizable.strings -sheetName "es/Localizable.strings"
+		$ airstrings push --spreadhseetId &lt;GOOGLE_SPREADSHEET_ID&gt; --path ./en/Localizable.strings --tabName "es/Localizable.strings"
 	</code></pre>
 	</p></li>
 
@@ -35,7 +35,7 @@
 
 	<li><h3>Pull <code>Localizable.strings</code> from Google Sheets</h3><p>
 	<pre><code>
-		$ airstrings pull -spreadhseetId &lt;GOOGLE_SPREADSHEET_ID&gt; -sheetName "es/Localizable.strings"  -path ./es/Localizable.strings
+		$ airstrings pull --spreadhseetId &lt;GOOGLE_SPREADSHEET_ID&gt; --tabName "es/Localizable.strings"  --path ./es/Localizable.strings
 	</code></pre>
 	</p></li>
 </ol>
